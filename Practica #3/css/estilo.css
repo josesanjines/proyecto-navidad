@@ -1,0 +1,189 @@
+
+body {
+    background-color: #FFF8E7;
+    font-family: Arial;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    border: 4px double #a13939;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.encabezado h1 {
+    color: #db8a8a;
+    font-size: 40px;
+}
+
+/* MENU */
+.menu {
+    margin: 10px;
+}
+
+.menu a {
+    color: #d86868;
+    border: 4px double #A05235;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 130px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CONTENIDO */
+.contenido {
+    border: 4px double #A05235;
+    padding: 20px;
+    margin: 20px;
+    min-height: 400px;
+}
+
+.contenido h2 {
+    color:  #000000af;
+    text-align: center;
+}
+
+.caja {
+    background-color: #d5e76a;
+    border: 2px solid green;
+    padding: 15px;
+    margin: 15px;
+}
+
+.caja h3 {
+    color: darkgreen;
+}
+
+/* PERSONAJES */
+
+.personajes {
+    text-align: center;
+    margin: 20px;
+}
+
+.personaje {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #d5e76a;
+    border: 2px solid green;
+    padding: 15px;
+    margin: 10px;
+    width: 220px;
+    height: 340px;
+    text-align: center;
+}
+
+.personaje h3 {
+    color: darkgreen;
+}
+
+.personaje img {
+    width: 180px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.personaje p {
+    height: 40px;
+}
+
+.personaje button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+   border: 4px double #A05235;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    color: #d86868; 
+}
+
+/* REGALOS */
+
+.lista-regalos {
+    background-color: #d5e76a;
+    border: 2px solid green;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.lista-regalos input {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid green;
+}
+
+.lista-regalos button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 2px solid darkgreen;
+}
+
+.lista-regalos ul {
+    text-align: left;
+    color: darkgreen;
+}
+
+/* COMIDA */
+
+.productos {
+    text-align: center;
+}
+
+.producto {
+    display: inline-block;
+    background-color: #d5e76a;
+    border: 2px solid green;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+}
+
+.producto h3 {
+    color: darkgreen;
+}
+
+.producto img {
+    height: 130px;
+}
+
+.producto button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 2px solid darkgreen;
+}
+
+/* CARRITO */
+
+.carrito {
+    background-color: #d5e76a;
+    border: 2px solid brown;
+    padding: 20px;
+    margin: 20px;
+}
+
+.carrito h2 {
+    color: blue;
+}
+
+.carrito li {
+    padding: 5px;
+}
+
+.carrito button {
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+}

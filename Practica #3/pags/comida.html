@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comida Navideña</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <div class="encabezado">
+        <h1>NAVIDAD</h1>
+
+        <div class="menu">
+            <a href="../index.html">Bienvenida</a>
+            <a href="historia.html">Historia</a>
+            <a href="personajes.html">Personajes</a>
+            <a href="regalos.html">Regalos</a>
+            <a href="comida.html">Comida</a>
+        </div>
+    </div>
+    <div class="contenido">
+        <h2>Comidas Navideñas</h2>
+        <p>
+            Elige tus platos favoritos y agrégalos
+            al carrito de compras
+        </p>
+        <div class="productos">
+            <div class="producto">
+                <h3>Picana</h3>
+                <img src="../imgs/picana.jpg" width="150">
+                <p>Precio: 35 Bs</p>
+                <button onclick="agregarPlato('Picana', 35)">
+                    Agregar al carrito
+                </button>
+            </div>
+            <div class="producto">
+                <h3>Pollo al horno</h3>
+                <img src="../imgs/pollo.jpg" width="150">
+                <p>Precio: 30 Bs</p>
+                <button onclick="agregarPlato('Pollo al horno', 30)">
+                    Agregar al carrito
+                </button>
+            </div>
+            <div class="producto">
+                <h3>Panetón</h3>
+                <img src="../imgs/paneton.jpg" width="150">
+                <p>Precio: 25 Bs</p>
+                <button onclick="agregarPlato('Panetón', 25)">
+                    Agregar al carrito
+                </button>
+            </div>
+            <div class="producto">
+                <h3>Chocolate caliente</h3>
+                <img src="../imgs/chocolate.jpg" width="150">
+                <p>Precio: 8 Bs</p>
+                <button onclick="agregarPlato('Chocolate caliente', 8)">
+                    Agregar al carrito
+                </button>
+            </div>
+        </div>
+        <div class="carrito">
+            <h2>Mi carrito de compras</h2>
+            <ul id="lista-compras">
+            </ul>
+            <h3>
+                Total: <span id="total">0</span> Bs.
+            </h3>
+            <button onclick="vaciarCarrito()">
+                Vaciar carrito
+            </button>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Diseñado por: Jose Sanjines</h1>
+    </div>
+    <script src="../js/comida.js"></script>
+</body>
+</html>
